@@ -1,0 +1,25 @@
+ npx create-expo-app@latest ./ --template blank
+
+Install dependcies
+ npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+ Set up entry point in package.json or yarn
+  "main": "expo-router/entry"
+
+Modify scheme in app.json
+{
+  "scheme": "your-app-scheme"
+}
+
+Start expo clearing every bundle before tha.
+npx expo start -c
+
+Here are the documwentations please read before proceeding - https://docs.expo.dev/router/installation/
+
+Install nativewind and tailwind for styling - https://www.nativewind.dev/quick-starts/expo
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+Setup
+npx tailwindcss init
+
+NB modify the plugin in the babel folder
