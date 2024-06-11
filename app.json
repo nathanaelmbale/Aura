@@ -13,9 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "package" : "com.mupoy.mupoy",
       "supportsTablet": true
     },
     "android": {
+      "package" : "com.mupoy.mupoy",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
